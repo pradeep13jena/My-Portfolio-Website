@@ -1,0 +1,56 @@
+/* Projects Transition */
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: rgb(15, 23, 32) 0px 0px 0px 2px inset,
+    rgb(15, 23, 32) 10px -10px 0px -3px, rgb(94, 234, 212) 10px -10px;
+}
+
+.cardone {
+  box-shadow: rgb(15, 23, 32) 0px 0px 0px 2px inset,
+    rgb(15, 23, 32) 10px -10px 0px -3px, rgb(94, 234, 212) 10px -10px;
+}
+
+.info {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+  transition: bottom 0.3s ease-in-out;
+}
+
+.card:hover .info {
+  bottom: -2px;
+}
+
+/* certificates Transition */
+
+.certificates:hover {
+  transform: rotateX(10deg) rotateY(-18deg) rotateZ(3deg);
+  border-radius: 0.25em;
+  transition: 0.3s;
+}
+
+.certificates {
+  transform: rotate(0);
+}
+
+/* About Section */
+
+@media only screen and (min-width: 768px) {
+  .about-info {
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
