@@ -1,0 +1,47 @@
+npx tailwindcss -i ./input.css -o ./output.css --watch
+
+-------------------------------------------------------------------------------
+
+
+<section id="about" class="pt-20 md:pt-28 md:px-12 lg:px-16">
+        <div class="p-4">
+            <span class="text-TextColors text-2xl font-semibold md:text-4xl md:font-bold border-b-2 hover:text-white">About</span>
+            <div class="about-container pt-10 md:pt-16 flex justify-center items-center ">
+                <div class="about-info md:mr-24">
+                    <p class="text-TextColors lg:text-xl">Hi everyone, <span class="text-white">I'm Pradeep Jena.</span>
+                        <br>A passionate web developer dedicated to crafting clean and functional websites. 
+                        I specialize in front-end development using HTML, CSS, and JavaScript. 
+                        My journey began with a fascination for how websites work, which grew into a deep-seated love for crafting clean, efficient code.
+                    </p>
+                    <br>
+                    <p class="text-TextColors lg:text-xl">
+                        My goal is to blend creativity with technical expertise to deliver user-friendly websites.
+                        Over the years, I’ve had the privilege of working on diverse projects, from building responsive landing pages to
+                        developing complex web applications tailored to client specifications. <a href="#about"><span class="text-teal-300">Read more.</span></a> 
+                    </p>
+                </div>
+                <div class="about-image flex-none h-full pt-12 pb-10">
+                    <img class="" src="./Photos/meee.jpg" alt="me">
+                </div>
+            </div>
+        </div>
+    </section>
+
+----------------------------------------------------------------------------------------
+
+<section id="about" class="pt-20 md:pt-28 md:px-12 lg:px-16 md:flex md:flex-row md:justify-center md:items-center">
+        <div class="p-4">
+            <span class="text-TextColors text-2xl font-semibold md:text-4xl md:font-bold border-b-2 hover:text-white">About me</span>
+            <p class=" pt-10 text-TextColors md:pt-10 lg:text-lg md:text-base">Hi everyone, <span class="text-white">I'm Pradeeep Jena.</span> <br> A passionate web developer dedicated to crafting clean and functional websites. 
+                I specialize in front-end development using HTML, CSS, and JavaScript. 
+                My journey began with a fascination for how websites work, which grew into a deep-seated love for crafting clean, efficient code.
+                My goal is to blend creativity with technical expertise to deliver user-friendly websites.
+                Over the years, I’ve had the privilege of working on diverse projects, from building responsive landing pages to developing complex web applications tailored to client specifications.
+                I believe in the power of elegant code and intuitive design. As Steve Jobs said, <span class="text-teal-300">'Design is not just what it looks like and feels like. Design is how it works.'</span> 
+                This philosophy drives my approach to every project, ensuring a seamless user experience.
+                Thank you for visiting my website. I look forward to discussing how we can bring your vision to life in the digital world.
+            </p>
+        </div>
+    </section>
+
+----------------------------------------------------------------------------------------
